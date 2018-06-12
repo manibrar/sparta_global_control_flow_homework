@@ -1,28 +1,24 @@
-# JavaScript - Control Flow lab
+# Javascript function using test driven development
 
 ## Timings
 
-30 - 45 Minutes
+60 - 90 Minutes
 
 ## Summary
 
-You've been given a bunch of variables, alerts and prompts that build up a story. Using what you've learned about control flow, it's up to you to write the conditional statements necessary to connect the alerts and prompts follow the story through to the end.
+Using what we have learned about functions, arguments and returns, work your way through the functions listed as comments in the app.js file. Each function must be written out exactly according to it's corresponding comment.
 
-## Tasks
+The spec folder contains a testing script that will show you what each function needs to do and whether you have written it correctly. You can run these tests like this by loading the index.html in your browser.
 
-* Read the alerts carefully to ascertain which will continue the story and which will end it.
-* Read the comments carefully to check which kind of conditional statement you'll have to write for each chapter.
-* Write statements using the provided variables to meet the different conditions.
+The first time you run this command you will notice all the tests report RED. Your task is to write the functions required that will pass the tests.
 
-By the end of this lab you will have written:
+**HINTS**
 
-  * A simple if/else statement to decide between two outcomes.
-  * An if/else if/else statement to decide between two outcomes and then any other.
-  * A switch statement with multiple cases and a default.
+ - Every function must return something for the test to pass - always remember the return keyword
+ - You will get Jasmine errors saying the functions don't do what they're supposed to, as well as console errors if there are syntax problems. Keep the console open in the browser to read these.
 
-And have used the boolean operators for:
-  * Equal to
-  * Less than
-  * Greater than
-  * Or
-  * And
+
+## Bonus Tasks
+
+ 1. Complete the two extra, more difficult exercises at the bottom of the page.
+ 	
