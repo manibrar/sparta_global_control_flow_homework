@@ -88,25 +88,25 @@ function longestString(array) {
 
 
 function allElementsExceptFirstThree(array) {
-  for (var array[i] in array) {
-    if ((array[i]) > 3) {
-      array[i].push(array);
-    }
-  }return array;
+  array.splice(0, 3);
+  return array;
 }
 
 
 
 
+//#### BONUS ####
 
-    //#### BONUS ####
+// 11. Write a function called 'convertArrayToAnObject' that turns an array
+//(with an even number of elements) into a hash, by
+// pairing up elements. e.g. ['a', 'b', 'c', 'd'] becomes
+// {'a' => 'b', 'c' => 'd'}
 
-    // 11. Write a function called 'convertArrayToAnObject' that turns an array (with an even number of elements) into a hash, by
-    // pairing up elements. e.g. ['a', 'b', 'c', 'd'] becomes
-    // {'a' => 'b', 'c' => 'd'}
 
-    // 12. Write a function called 'fizzBuzz' that takes any number and returns a value based on these rules
 
-    // But for multiples of three print "Fizz" instead of the number
-    // For the multiples of five print "Buzz".
-    // For numbers which are multiples of both three and five print "FizzBuzz".
+
+// 12. Write a function called 'fizzBuzz' that takes any number and returns a value based on these rules
+
+// But for multiples of three print "Fizz" instead of the number
+// For the multiples of five print "Buzz".
+// For numbers which are multiples of both three and five print "FizzBuzz".
